@@ -46,6 +46,7 @@ public class BuscadorArchivos {
         String directorio = scanner.nextLine();
 
         // Solicitar al usuario que ingrese el nombre del archivo a buscar (Ejemplo: archivo.txt)
+        System.out.print("Ingrese El Nombre Del Archivo: ");
         String nombreArchivo = scanner.nextLine();
 
         // Verificar que los campos no esten vacios
